@@ -10,7 +10,17 @@ File or Folder | Purpose
 `db/` | your domain models and data go here
 `srv/` | your service models and code go here
 `readme.md` | this getting started guide
+Product Shop Application Details
 
+cds add data
+
+It will add the data in the .csv file inside the data folder of db → db/data → .csv
+
+cds watch
+
+Start the server and listen to your file changes.
+
+namespace → unique name to your application.
 ## Next Steps
 
 - Open a new terminal and run `cds watch`
