@@ -5,5 +5,11 @@ module.exports = cds.service.impl(async function(srv){
         console.log(input)
         return `${input} world`
     })
+
+    srv.on('Addition', req => {
+        console.log(req.data)
+        let result = req.data.Num1 + req.data.Num2;
+        return result;
+    })
 })
 
