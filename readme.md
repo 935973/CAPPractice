@@ -12,7 +12,13 @@ File or Folder | Purpose
 `readme.md` | this getting started guide
 Product Shop Application Details
 
-cds add data
+# Steps to Reproduce
+Clone the repo from GitHub inside BAS.
+Make sure your terminal is pointing to your project. If not, go to your project you have created using cd <project name>.
+Type cds watch inside the terminal.
+Run the browser or go to your file in test.http and do the testing.
+
+# cds add data
 
 It will add the data in the .csv file inside the data folder of db → db/data → .csv
 
@@ -21,6 +27,7 @@ cds watch
 Start the server and listen to your file changes.
 
 namespace → unique name to your application.
+
 ## Next Steps
 
 - Open a new terminal and run `cds watch`
