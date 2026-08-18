@@ -3,6 +3,12 @@
 
 
 ### Call helloworld function (with input)
-GET http://localhost:4004/odata/v4/product/helloworld
+//GET http://localhost:4004/odata/v4/product/helloworld
 ### Addition of two numbers
 //GET http://localhost:4004/odata/v4/product/Addition(Num1=10,Num2=20)
+
+//product
+//GET http://localhost:4004/odata/v4/productshop/product
+
+//Supplier
+GET http://localhost:4004/odata/v4/productshop/Supplier
