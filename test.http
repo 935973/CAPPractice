@@ -1,12 +1,6 @@
 # CAP Project - HTTP Test File
 # Use with REST Client extension in VS Code
 
-
-### Call helloworld function (with input)
-//GET http://localhost:4004/odata/v4/product/helloworld
-### Addition of two numbers
-//GET http://localhost:4004/odata/v4/product/Addition(Num1=10,Num2=20)
-
 //product
 //GET http://localhost:4004/odata/v4/productshop/product
 
